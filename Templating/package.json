@@ -1,0 +1,15 @@
+{
+  "name": "templating",
+  "version": "1.0.0",
+  "description": "Templating using embeded javascript ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yash Falke",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get or Post request</title>
+</head>
+
+<body>
+    <h1>Get or Post request</h1>
+    <h2>Get Request</h2>
+    <form action="http://localhost:8080/tacos" method="GET">
+        <input type="text" name="meat" id="meat">
+        <input type="number" name="qty" id="qty">
+        <button type="submit">submit</button>
+    </form>
+    <h2>Post Request</h2>
+    <form action="http://localhost:8080/tacos" method="POST">
+        <input type="text" name="meat" id="meat">
+        <input type="number" name="qty" id="qty">
+        <button type="submit">submit</button>
+    </form>
+</body>
+
+</html>
